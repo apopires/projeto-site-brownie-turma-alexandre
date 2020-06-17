@@ -1,0 +1,109 @@
+/* ALTERAR PARA TODOS OS ELEMENTOS */
+html * {
+    /* RESETAR A MARGEM */
+    margin: 0px;
+    /* LARGURA MÁXIMA DOS ELEMENTOS */
+    max-width: 100%;
+}
+
+/* ALTERAR PARA OS ELEMENTOS DO BODY */
+body {
+    /* COR DE FUNDO */
+    background-color: #111111;
+}
+
+/* ALTERAR PARA OS ELEMENTOS DO LOGOTIPO */
+#logotipo {
+    /* LARGURA DO LOGOTIPO */
+    width: 300px;
+    /* MARGEM DO LOGOTIPO */
+    margin: 20px;
+}
+
+/* ALTERAR PARA OS ELEMENTOS DO MENU */
+#menu {
+    /* COR DE FUNDO */
+    background-color: #593806;
+    /* MARGEM INFERIOR */
+    margin-bottom: 20px;
+    /* CONTORNO DO TOPO DA MARGEM SUPERIOR */
+    border-top: 10px solid #3f2702;
+    /* CONTORNO DA BASE DA MARGEM INFERIOR */
+    border-bottom: 10px solid #3f2702;
+    /* ESPAÇAMENTO DA LATERAL */
+    padding: 10px;
+
+    /* ATIVAR O MODO GRID (LINHAS E COLUNAS) */
+    display: grid;
+
+    /* ELEMENTOS DENTRO DA CLASSE PRINCIPAL NO FORMATO DE 4 COLUNAS */
+    grid-template-columns: repeat(4, 1fr);
+
+    /* ALINHAMENTO CENTRAL DO TEXTO */
+    text-align: center;
+}
+
+/* ALTERAR PARA A TAG a DENTRO DO MENU */
+#menu a {
+    /* ALTERAR COR DA FONTE */
+    color: white;
+    /* COLOCAR O TEXTO EM MAIÚSCULA */
+    text-transform: uppercase;
+    /* RETIRAR O ESTILO SUBLINHADO*/
+    text-decoration: none;
+    /* ALTERAR A FONTE */
+    font-family: sans-serif;
+}
+
+/* PSEUDOSELETOR (PASSAR MOUSE POR CIMA)*/
+#menu a:hover {
+    color: black;
+    background-color: brown;
+}
+
+/* ALTERAR PARA OS ELEMENTOS DA CLASSE PRINCIPAL */
+.principal {
+    /* ATIVAR O MODO GRID (LINHAS E COLUNAS) */
+    display: grid;
+
+    /* ELEMENTOS DENTRO DA CLASSE PRINCIPAL NO FORMATO DE 3 COLUNAS */
+    grid-template-columns: repeat(3, 1fr);
+
+    /* ESPAÇAMENTO ENTRE COLUNAS E LINHAS DO GRID */
+    gap: 20px;
+}
+
+/* ALTERAR PARA OS ELEMENTOS DA CLASSE ITEM*/
+.item {
+
+    /* COR DE FUNDO */
+    background-color: #cfa76e;
+    /* FONTE */
+    font-family: sans-serif;
+    /* LETRAS MAIÚSCULAS */
+    text-transform: uppercase;
+    /* MARGEM */
+    margin: 20px;
+        /* ALTERAR COR DA FONTE */
+    color: #593806;
+    /* BORDA SUPERIOR */
+    border-top: 5px solid #593806;
+    /* BORDAS ARREDONDADAS */
+    border-radius: 1%;
+    /* TEXTO CENTRALIZADO */
+    text-align: center;
+ }
+
+ /* ALTERAR PARA OS ELEMENTOS DA CLASSE RODAPE*/
+ .rodape {
+    /* COR DE FUNDO */
+    background-color: #593806;
+    height: 100px;
+
+    /* HABILITAR O MODO DE LINHAS E COLUNAS */
+    display: grid;
+    /* ALINHAR NA HORIZONTAL */
+    justify-content: center;
+    /* ALINHAR NA VERTICAL */
+    align-content: center;
+ }
